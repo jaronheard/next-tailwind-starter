@@ -1,0 +1,31 @@
+{
+  "name": "community-emissions-report",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "format": "prettier --write .",
+    "lint": "eslint ./ --ext js,jsx",
+    "start": "next start"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "next": "^11.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.4",
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "postcss": "^8.1.10",
+    "prettier": "2.3.0",
+    "prettier-plugin-sort-class-names": "^3.0.1",
+    "tailwindcss": "^2.1.1"
+  }
+}
